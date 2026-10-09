@@ -30,5 +30,12 @@ fun ActivityPertama(modifier: Modifier) {
     Column(modifier = modifier.padding(top = 100.dp)
         .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
-    )
+    ){
+        Text(
+            stringResource(R.string.Prodi),
+            fontSize = 35.sp,
+            fontWeight = FontWeight.Bold,
+        )
+        
+    }
 }
