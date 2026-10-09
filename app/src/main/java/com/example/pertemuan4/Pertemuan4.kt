@@ -40,6 +40,13 @@ fun ActivityPertama(modifier: Modifier) {
             stringResource(R.string.Univ),
             fontSize = 22.sp
         )
+        Spacer(modifier = Modifier.height(25.dp))
+        Card(
+            modifier = Modifier
+                .fillMaxWidth(1f)
+                .padding(12.dp),
+            )
+        ) {
 
         }
     }
