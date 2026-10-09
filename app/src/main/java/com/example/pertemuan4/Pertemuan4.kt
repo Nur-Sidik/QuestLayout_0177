@@ -60,7 +60,9 @@ fun ActivityPertama(modifier: Modifier) {
                 Column() {
                     Text(
                         stringResource(R.string.Nama),
-       
+                        fontSize = 30.sp,
+                        fontFamily = FontFamily.Cursive,
+
                     )
 
                 }
