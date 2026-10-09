@@ -51,7 +51,11 @@ fun ActivityPertama(modifier: Modifier) {
         ) {
             Row() {
                 val gambar = painterResource(R.drawable.bg)
-
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier.size(100.dp).padding(5.dp)
+                )
 
             }
         }
