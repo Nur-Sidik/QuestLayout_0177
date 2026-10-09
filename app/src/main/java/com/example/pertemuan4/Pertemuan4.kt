@@ -49,7 +49,11 @@ fun ActivityPertama(modifier: Modifier) {
                 containerColor = Color.DarkGray
             )
         ) {
-            
+            Row() {
+                val gambar = painterResource(R.drawable.bg)
+
+
+            }
         }
     }
 }
